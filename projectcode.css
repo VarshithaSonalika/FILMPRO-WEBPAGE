@@ -1,0 +1,221 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    background-color: rgb(0,0,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255,255,255);
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(225,225,225);
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+    color:rgb(225,225,225);
+}
+.button{
+    background-color: rgb(0,0,0);
+    text-align: center;  
+}
+.button ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255,255,255);
+}
+.button ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.button ul li a
+{
+    text-decoration: none;
+    color: rgb(225,225,225);
+}
+.button ul li:hover
+{
+    background: rgb(225,225,225,0.5);    
+    border-radius: 3px
+}
+.button .fa
+{
+    margin-right: 8px;
+    color:rgb(225,225,225);
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,0,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255,255,255);
+    border-radius: 0;
+    background: transparent;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: rgb(225,225,225,0.5);
+}
+.content
+{
+    width: 75%;
+    color: rgb(255,255,255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content h2 
+{
+    font-size: 70px;
+}
+.content h3
+{
+    font-size: 40px;
+}
+.content p
+{
+    margin: 10px 0 50px;
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+.course
+{
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    padding-top: 35px;
+}
+h3
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+h6
+{
+    font-size: 20px;
+    font-weight: 550;
+}
+p
+{
+    color: rgb(0,0,0);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px;
+}
+.highlights
+{
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    padding-top: 35px;
+}
+h3
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+h6
+{
+    font-size: 20px;
+    font-weight: 550;
+}
+p
+{
+    color: rgb(0,0,0);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px;
+}
+.requirements
+{
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    padding-top: 35px;
+}
+h3
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+h7
+{
+    font-size: 20px;
+    font-weight: 550;
+}
+p
+{
+    color: rgb(0,0,0);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px;
+}
+.queries
+{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding-top: 10px;
+}
+h3
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+p
+{
+    color: rgb(0,0,0);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px;
+}
+
